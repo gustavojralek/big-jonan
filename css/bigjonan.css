@@ -36,7 +36,7 @@ li { line-height: 100%;}
 
 /*Somos*/
 .somos img{width: 200px; margin:4% 41.46%;}
-.somos span{text-align: center; font-size: 20px; margin-bottom: 80px;}
+.somos span{text-align: center; font-size: 17px; margin-bottom: 80px; line-height: 24px}
 
 /*Parallax*/
 
