@@ -8,7 +8,7 @@
 			$('.fullwidthbanner').revolution({	
 				delay: 5000,												
 				startwidth:890,
-				startheight:490,
+				startheight:323,
 
 				onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
 
@@ -17,8 +17,8 @@
 				thumbAmount:4,
 
 				hideThumbs:200,
-				navigationType:"none",					//bullet, thumb, none, both	 (No Shadow in Fullwidth Version !)
-				navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
+				navigationType:"bullet",					//bullet, thumb, none, both	 (No Shadow in Fullwidth Version !)
+				navigationArrows:"none",		//nexttobullets, verticalcentered, none
 				navigationStyle:"square",				//round,square,navbar
 
 				touchenabled:"on",						// Enable Swipe Function : on/off
