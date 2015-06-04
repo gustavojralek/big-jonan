@@ -20,12 +20,13 @@ li { line-height: 100%;}
 
 /*Header*/
 .header { width:100%; position: absolute;background-color: rgba(999,999,999,0.85); top: 0px; }
-.navbar {opacity: 0.98; height: 100px;}
-.navbar .navbar-brand img{ width: 250px;  position: absolute;  top: 10px;  left: 101px;}
+.navbar {opacity: 0.98; min-height: 126px;}
+.logo{  float: right; display: block; height: 64px; margin: 33px 220px 0 0;}
+.navbar .navbar-brand img{ height: 100%}
 .navbar ul li a{line-height: 99px}
 .navbar .container-fluid{height: 100%}
 .navbar .container-fluid .social{ padding-left: 20px;}
-.menu {text-align:right; font-size:20px;}
+.navbar .container-fluid .menu {text-align:right; font-size:20px;}
 
 /*Parallax*/
 .parallax-window {min-height: 400px; background: transparent;}
