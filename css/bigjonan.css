@@ -18,9 +18,25 @@ a:hover { text-decoration: none; color: #FFFFFF;}
 strong { font-weight: bold;}
 li { line-height: 100%;}
 
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+    background-size: cover;
+    overflow:visible;
+}
+
+#contenedor-total{width: 100%; height: 100%;}
+
+
+
 /*Header*/
 .header { width:100%; position: absolute;background-color: rgba(240,240,240,0.95); top: 0px; }
-.navbar {opacity: 0.95; min-height: 126px; border: none; border-radius: 0;}
+.navbar {opacity: 0.95; min-height: 126px; border: none; border-radius: 0; z-index: 1}
 .logo{  float: right; display: block; height: 64px; margin: 33px 220px 0 0;}
 .navbar .navbar-brand img{ height: 100%}
 .navbar ul li a{line-height: 99px}
@@ -32,6 +48,8 @@ li { line-height: 100%;}
 	color: #FFFFFF;  background-color:rgb(243, 112, 33);
 }
 
+
+.banner{position: absolute; color: #fff; font-size: 66px !important; font-family: 'Arial';line-height: 1em; left: 30%; top: 45%}
 .row{margin-right: 0; margin-left: 0;}
 
 /*Somos*/
@@ -40,6 +58,77 @@ li { line-height: 100%;}
 
 /*Parallax*/
 
-.top  {position:relative;	background: url(../img/parallax/pattern.png), url(../img/parallax/back.png) no-repeat fixed;	background-position: center center;	}
-.parallax-window {min-height: 620px; width: 100%; background: url(../img/parallax/pattern.png), rgba(888,888,888,0.3);}
+/*.top  {position:relative;	background: url(../img/parallax/pattern.png), url(../img/parallax/back.png) no-repeat fixed;	background-position: center center;	}*/
+.parallax-window {min-height: 100%; width: 100%; height: 100% }
 .parallax-window span{font-size: 15px; color: #ffffff;}
+/*
+.overlay { background: url(../img/parallax/pattern.png), rgba(888,888,888,0.3);
+            margin: 0px; padding: 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0.35; */
+/*background-image: url(img/parallax/pattern.png)*//*
+}
+*/
+.overlay { background: url(../img/parallax/pattern.png), rgba(888,888,888,0.3);
+    margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0; width: 100%; height: 100%; opacity: 0.35; /*background-image: url(img/parallax/pattern.png)*/}
+
+
+
+/*Bullets*/
+#nav_main {
+    width: 20px;
+    height: 150px;
+    position: fixed;
+    right: 25px;
+    top: 50%;
+    margin-top: -75px;
+    z-index: 100;
+}
+
+.nav-main{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 0px;
+    margin-bottom: 5px;
+    text-indent: -999em;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    cursor: pointer;
+    background: #fff;
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+/*
+.nav-main.active {
+    background: rgba(0,0,0,0);
+    margin-left: -2px;
+    border: 2px solid #fff;
+}
+*/
+
+
+#nav_main.dots-dark .nav-main{
+    background: #83878B;
+}
+#nav_main.dots-dark .nav-main.active{
+    background: #ffffff;
+    border: 5px solid #ffffff;
+}
+
+
+
+/* ====================================================
+   MAIN CONTENT
+   ==================================================== */
+
+#main-content {display: block; position: relative; width: 100%; height: 100%}
+#main-content {display: block; position: relative; width: 100%; height: 100%}
+
+#main-content .section-wrapper {
+    display:block;
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
