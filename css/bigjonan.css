@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800);
+
 /*Ressets*/
 * {padding: 0; margin: 0;}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline;}
@@ -10,12 +12,14 @@ q:before, q:after, blockquote:before, blockquote:after { content: ""; content: n
 a img { border: none;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block;}
 
+
+
 /* General */
 html, span { font-size: 16px; color: #83878B; }
-body { font-family: Arial,Helvetica,sans-serif;}
+body { font-family: 'Open Sans', sans-serif; font-weight: 100}
 a { color: #83878B; cursor: pointer; text-decoration: none;}
 a:hover { text-decoration: none; color: #FFFFFF;}
-strong { font-weight: bold;}
+strong { font-weight: 400;}
 li { line-height: 100%;}
 
 html {
@@ -30,6 +34,8 @@ body {
     overflow:visible;
 }
 
+
+
 #contenedor-total{width: 100%; height: 100%;}
 
 
@@ -39,28 +45,26 @@ body {
 .navbar {opacity: 0.95; min-height: 126px; border: none; border-radius: 0; z-index: 1}
 .logo{  float: right; display: block; height: 64px; margin: 33px 220px 0 0;}
 .navbar .navbar-brand img{ height: 100%}
-.navbar ul li a{line-height: 99px}
+.navbar ul li a{line-height: 96px}
 .navbar .container-fluid{width: 100%}
 .navbar .container-fluid .social{ padding-left: 20px;}
-.navbar .container-fluid .menu {text-align:right; font-size:20px;}
+.navbar .container-fluid .menu {text-align:right; font-size:20px;font-weight:100;}
 
 .navbar-default .menu > li > a:hover, .navbar-default .menu > li > a:focus{
-	color: #FFFFFF;  background-color:rgb(243, 112, 33);
+	color: #FFFFFF;  background-color:#de9d60;
 }
 
 
-.banner{position: absolute; color: #fff; font-size: 66px !important; font-family: 'Arial';line-height: 1em; left: 30%; top: 45%}
+.banner{position: absolute; color: #fff; font-size: 66px !important; font-family: 'Open Sans', sans-serif;line-height: 1em; left: 24%; top: 45%; font-weight: 100}
 .row{margin-right: 0; margin-left: 0;}
 
-/*Somos*/
-.somos img{width: 200px; margin:4% 41.46%;}
-.somos span{text-align: center; font-size: 17px; margin-bottom: 80px; line-height: 24px}
+
 
 /*Parallax*/
 
 /*.top  {position:relative;	background: url(../img/parallax/pattern.png), url(../img/parallax/back.png) no-repeat fixed;	background-position: center center;	}*/
-.parallax-window {min-height: 100%; width: 100%; height: 100% }
-.parallax-window span{font-size: 15px; color: #ffffff;}
+.parallax-banner {min-height: 100%; width: 100%; height: 100% }
+.parallax-banner span{font-size: 15px; color: #ffffff;}
 /*
 .overlay { background: url(../img/parallax/pattern.png), rgba(888,888,888,0.3);
             margin: 0px; padding: 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0.35; */
@@ -78,17 +82,16 @@ body {
     height: 150px;
     position: fixed;
     right: 25px;
-    top: 50%;
+    top: 60%;
     margin-top: -75px;
     z-index: 100;
 }
 
 .nav-main{
     display: inline-block;
-    width: 9px;
-    height: 9px;
-    margin: 0px;
-    margin-bottom: 5px;
+    width: 8px;
+    height: 8px;
+    margin-bottom: 20px;
     text-indent: -999em;
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
@@ -109,11 +112,14 @@ body {
 
 
 #nav_main.dots-dark .nav-main{
-    background: #83878B;
+    background: #babcbc;
 }
 #nav_main.dots-dark .nav-main.active{
     background: #ffffff;
-    border: 5px solid #ffffff;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: -1px;
 }
 
 
@@ -131,4 +137,52 @@ body {
     height: 100%;
     min-height: 100%;
     width: 100%;
+
 }
+
+/*Somos*/
+#somos {height: auto !important; min-height: 0 !important; }
+#somos img{width: 200px; margin:4% 41.46%;}
+#somos span{text-align: center; font-size: 20px; margin-bottom: 4%; line-height: 24px; display: block;}
+
+/*Trabajos*/
+#trabajos .back {
+  background: url(../img/trabajos/back.png) no-repeat fixed; 
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur(5px); 
+  filter: blur(5px);   
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+  overflow: hidden;
+  }
+
+#trabajos .img {margin: 2% 0}
+#trabajos img{border:3px solid rgba(214, 212, 216, 0.5) !important }
+
+#trabajos .fotorama__nav-wrap {margin: 2% 0}
+#trabajos .fotorama__nav-wrap img{border: 1px solid #FFFFFF !important;}
+
+/*Contacto*/
+#contacto{padding: 2.4% 19%}
+#contacto h2{margin: 22px 0; font-size: 15px}
+
+/*NewsLetter*/
+#newsletter{background-color: #d8883c; height: auto !important; min-height: 0 !important; padding: 2.6% 0}
+#newsletter h2{text-align: center; font-size: 30px; margin: 22px 0 20px 0; text-transform: uppercase; font-weight: 400 }
+#newsletter label {text-align: right; padding: 10px 0; font-size: 27px;}
+#newsletter .suscribe{  background-color: #ffffff;border-radius: 35px;border: none; float: left; width: 390px; height: 52px;}
+#newsletter .suscribe input {border:none; font-style: italic; height: 25px; font-size: 17px; -webkit-box-shadow: none;box-shadow: none;-o-transition: none; margin: 15px}
+#newsletter .suscribe button {background-color: #adb1b9; border:none; border-radius: 35px; color: #ffffff; font-size: 14px; float: right; width: 142px; height: 42px; margin: 5px; font-weight: bold;}
+
+
+/*Clientes*/
+#clientes {padding: 3% 0; opacity: 0.6; height: auto !important; min-height: 0 !important; }
+#clientes img{ width: 97px; margin-bottom: 15px;}
