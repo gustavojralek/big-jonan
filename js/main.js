@@ -11,7 +11,7 @@ $(document).ready(function() {
         windowMainScroll();
     });
 
-	$(".nav-main").on('click', function(e){
+	$(".nav-main, .menu li a").on('click', function(e){
 		e.preventDefault();
 		var newtop = $( "#" + $(this).data("section") ).offset().top - menuh;
 		scrolling=true;

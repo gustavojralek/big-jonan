@@ -178,7 +178,7 @@ body {
 #newsletter{background-color: #d8883c; height: auto !important; min-height: 0 !important; padding: 2.6% 0}
 #newsletter h2{text-align: center; font-size: 30px; margin: 22px 0 20px 0; text-transform: uppercase; font-weight: 400 }
 #newsletter label {text-align: right; padding: 10px 0; font-size: 27px;}
-#newsletter .suscribe{  background-color: #ffffff;border-radius: 35px;border: none; float: left; width: 390px; height: 52px;}
+#newsletter .suscribe{  background-color: #ffffff;border-radius: 35px;border: none; float: left; width: 430px; height: 52px;}
 #newsletter .suscribe input {border:none; font-style: italic; height: 25px; font-size: 17px; -webkit-box-shadow: none;box-shadow: none;-o-transition: none; margin: 15px}
 #newsletter .suscribe button {background-color: #adb1b9; border:none; border-radius: 35px; color: #ffffff; font-size: 14px; float: right; width: 142px; height: 42px; margin: 5px; font-weight: bold;}
 
@@ -186,3 +186,28 @@ body {
 /*Clientes*/
 #clientes {padding: 3% 0; opacity: 0.6; height: auto !important; min-height: 0 !important; }
 #clientes img{ width: 97px; margin-bottom: 15px;}
+
+
+/*Tag*/
+.tag {
+    width: auto;
+    position: absolute;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #ffffff;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    top: 0;
+    left: 20%;
+}
+
+.tag.somos{background-color: #d8883c; }
+.tag.trabajos{background-color: #aaaaaa; }
+.tag.contacto{background-color: #87cefa; }
+
+

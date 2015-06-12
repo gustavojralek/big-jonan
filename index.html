@@ -40,11 +40,11 @@
                         <div class="collapse navbar-collapse col-md-7" id="bs-example-navbar-collapse-1 ">
 
                             <ul class="nav navbar-nav navbar-left menu" >
-                                <li><a href="#somos">Somos</a></li>
-                                <li><a href="#servicios">Servicios</a></li>
-                                <li><a href="#clientes">Clientes</a></li>
-                                <li><a href="#trabajos">Trabajos</a></li>
-                                <li><a href="#contacto">Contacto</a></li>
+                                <li><a data-section="somos" >Somos</a></li>
+                                <li><a data-section="servicios" href="#servicios">Servicios</a></li>
+                                <li><a data-section="clientes" href="#clientes">Clientes</a></li>
+                                <li><a data-section="trabajos" href="#trabajos">Trabajos</a></li>
+                                <li><a data-section="contacto" href="#contacto">Contacto</a></li>
 
                             </ul>
 
@@ -59,6 +59,7 @@
 
                 <!--Bullets-->
                 <div id="nav_main" style="display: block;" class="dots-dark">
+                    <div class="nav-main" data-section="header"></div>
                     <div class="nav-main" data-section="somos"></div>
                     <div class="nav-main" data-section="trabajos"></div>
                     <div class="nav-main" data-section="contacto"></div>
@@ -71,7 +72,7 @@
                     <!--Overlay-->
                     <div class="overlay" ></div>
 
-                    <span class="banner">Diseñamos y construímos </br> <strong>Stands</strong> bajo tu necesidad</span>
+                    <h1 class="banner">Diseñamos y construímos </br> <strong>Stands</strong> bajo tu necesidad</h1>
                 </div>
 
             </section>
@@ -79,6 +80,9 @@
             <!--Secciones-->
             <section id="main-content">
                     <article id="somos" class="somos section-wrapper clearfix">
+
+                        <div class="tag somos">Somos</div>
+
                         <div class="col-md-12">
                             <img src="img/logo/big-logo.png">
                         </div>
@@ -88,12 +92,15 @@
                     </article>
 
                     <article id="trabajos" class="section-wrapper clearfix">
-                        
+
+                        <div class="tag trabajos">Trabajos</div>
+
                         <div class="back"></div>
 
                         <div  class="img fotorama"  data-width="100%"
                              data-maxwidth="100%"
                              data-height="88%"
+                             
                              data-ratio="16/9"
                              data-allowfullscreen="true"
                              data-arrows="true"
@@ -126,6 +133,9 @@
 
 
                     <article id="contacto" class="section-wrapper clearfix">
+
+                        <div class="tag contacto">Contacto</div>
+
                         <div class="col-md-12">
                             <h2>Consulte el presupuesto personalizado sin costo</h2>
                             <div class="col-md-6">
