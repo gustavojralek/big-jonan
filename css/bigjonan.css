@@ -147,8 +147,8 @@ body {
 
 /*Trabajos*/
 #trabajos .back {
-  background: url(../img/trabajos/back.png) no-repeat fixed; 
-  /*background-position: center center;*/
+  background: url(../img/trabajos/back.jpg) no-repeat fixed; 
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -163,6 +163,7 @@ body {
   opacity: 0.4;
   overflow: hidden;
   }
+
 
 
 #trabajos .img {margin: 3% 0}

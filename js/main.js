@@ -38,17 +38,17 @@ $(document).ready(function() {
 
 function windowMainScroll(){
 
+
     var st = $(window).scrollTop(); // console.log("st:" + st);
 
-	// parallax general
-    $('.parallax').each(function(){
+  // parallax general
+ /*   $('.parallax').each(function(){
         var obj = $(this);
         if((st+screenh) > obj.offset().top){
             var nt =  (st + screenh - obj.position().top) * obj.attr("yof") * 0.1;
             $(this).css({"margin-top": nt + "px"});
         }
-  	});
-
+    });*/
 
     // Oculta bullets en Top
  /*	if(st>( movieh + mainh - screenh * 0.5 )){
