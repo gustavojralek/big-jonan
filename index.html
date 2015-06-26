@@ -14,9 +14,12 @@
         <title>BigJonan - Web</title>
 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/bigjonan.css">
+        <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+
         <link rel="stylesheet" type="text/css" href="css/settings.css">
-        <link  href="css/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+
+        <link rel="stylesheet" type="text/css" href="css/bigjonan.css">
+
     </head>
 
     <body>
@@ -99,8 +102,73 @@
 
                         <div class="back"></div>
 
+                        <div id="slider-container" role="main">
+                            <section class="slider">
+                                <div id="slider" class="flexslider">
+                                    <ul class="slides">
+                                        <li><img src="img/trabajos/1.jpg"></li>
+                                        <li><img src="img/trabajos/2.jpg"></li>
+                                        <li><img src="img/trabajos/3.jpg"></li>
+                                        <li><img src="img/trabajos/4.jpg"></li>
+                                        <li><img src="img/trabajos/5.jpg"></li>
+                                        <li><img src="img/trabajos/6.jpg"></li>
+                                        <li><img src="img/trabajos/7.jpg"></li>
+                                        <li><img src="img/trabajos/8.jpg"></li>
+                                        <li><img src="img/trabajos/9.jpg"></li>
+                                        <li><img src="img/trabajos/10.jpg"></li>
+                                        <li><img src="img/trabajos/11.jpg"></li>
+                                        <li><img src="img/trabajos/12.jpg"></li>
+                                        <li><img src="img/trabajos/13.jpg"></li>
+                                        <li><img src="img/trabajos/14.jpg"></li>
+                                        <li><img src="img/trabajos/15.jpg"></li>
+                                        <li><img src="img/trabajos/16.jpg"></li>
+                                        <li><img src="img/trabajos/17.jpg"></li>
+                                        <li><img src="img/trabajos/18.jpg"></li>
+                                        <li><img src="img/trabajos/19.jpg"></li>
+                                        <li><img src="img/trabajos/20.jpg"></li>
+                                        <li><img src="img/trabajos/21.jpg"></li>
+                                        <li><img src="img/trabajos/22.jpg"></li>
+                                        <li><img src="img/trabajos/23.jpg"></li>
+                                        <li><img src="img/trabajos/24.jpg"></li>
+                                        <li><img src="img/trabajos/25.jpg"></li>
+                                        <li><img src="img/trabajos/26.jpg"></li>
+                                    </ul>
+                                </div>
+                                <div id="carousel" class="flexslider">
+                                    <ul class="slides">
+                                        <li><img src="img/trabajos/1.jpg"></li>
+                                        <li><img src="img/trabajos/2.jpg"></li>
+                                        <li><img src="img/trabajos/3.jpg"></li>
+                                        <li><img src="img/trabajos/4.jpg"></li>
+                                        <li><img src="img/trabajos/5.jpg"></li>
+                                        <li><img src="img/trabajos/6.jpg"></li>
+                                        <li><img src="img/trabajos/7.jpg"></li>
+                                        <li><img src="img/trabajos/8.jpg"></li>
+                                        <li><img src="img/trabajos/9.jpg"></li>
+                                        <li><img src="img/trabajos/10.jpg"></li>
+                                        <li><img src="img/trabajos/11.jpg"></li>
+                                        <li><img src="img/trabajos/12.jpg"></li>
+                                        <li><img src="img/trabajos/13.jpg"></li>
+                                        <li><img src="img/trabajos/14.jpg"></li>
+                                        <li><img src="img/trabajos/15.jpg"></li>
+                                        <li><img src="img/trabajos/16.jpg"></li>
+                                        <li><img src="img/trabajos/17.jpg"></li>
+                                        <li><img src="img/trabajos/18.jpg"></li>
+                                        <li><img src="img/trabajos/19.jpg"></li>
+                                        <li><img src="img/trabajos/20.jpg"></li>
+                                        <li><img src="img/trabajos/21.jpg"></li>
+                                        <li><img src="img/trabajos/22.jpg"></li>
+                                        <li><img src="img/trabajos/23.jpg"></li>
+                                        <li><img src="img/trabajos/24.jpg"></li>
+                                        <li><img src="img/trabajos/25.jpg"></li>
+                                        <li><img src="img/trabajos/26.jpg"></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
 
-                        <div  class="img fotorama"  data-width="100%"
+
+                    <!--    <div  class="img fotorama"  data-width="100%"
                              data-maxwidth="100%"
                              data-height="85%"
                              data-margintop="2%"
@@ -139,7 +207,7 @@
                           
                          
                         
-                        </div>
+                        </div>-->
 
 
                     </article>
@@ -264,7 +332,42 @@
         <script src="js/jquery.easing.1.3.js"></script>
 
         <script src="js/main.js"></script>
-        <script src="js/fotorama.js"></script>
+
+
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript">
+     /*       $(function(){
+                SyntaxHighlighter.all();
+            });*/
+            $(window).load(function(){
+                $('#carousel').flexslider({
+                    animation: "slide",
+                    controlNav: false,
+                    animationLoop: false,
+                    slideshow: false,
+                    itemWidth: 100,
+                    itemMargin: 5,
+                    asNavFor: '#slider'
+                });
+
+                $('#slider').flexslider({
+                    animation: "slide",
+                    controlNav: false,
+                    animationLoop: false,
+                    slideshow: false,
+                    sync: "#carousel",
+                    start: function(slider){
+                        $('body').removeClass('loading');
+                    }
+                });
+
+
+               /* //Cambia el fondo del carrousel a la foto seleccionada
+                var actualImageUrl = $("img", ".flex-active-slide").prop("src");
+                $(".back").css("background","url("+actualImageUrl+") no-repeat fixed" );
+*/
+            });
+        </script>
 
 
     </body>
