@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49a00667-eaa7-41b7-a30d-f8b026981cfb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bigjonan.js" afterPath="$PROJECT_DIR$/js/bigjonan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bigjonan.css" afterPath="$PROJECT_DIR$/css/bigjonan.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" afterPath="$PROJECT_DIR$/js/jquery.flexslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="big-jonan.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="49a00667-eaa7-41b7-a30d-f8b026981cfb" time="1435836865713" ignored="false" />
     <file path="/bigjonan.js" changelist="49a00667-eaa7-41b7-a30d-f8b026981cfb" time="1435693964937" ignored="false" />
-    <file path="/index.html" changelist="49a00667-eaa7-41b7-a30d-f8b026981cfb" time="1435840131369" ignored="false" />
+    <file path="/index.html" changelist="49a00667-eaa7-41b7-a30d-f8b026981cfb" time="1435842076275" ignored="false" />
     <file path="/main.js" changelist="49a00667-eaa7-41b7-a30d-f8b026981cfb" time="1435841281595" ignored="false" />
     <file path="/bigjonan.css" changelist="49a00667-eaa7-41b7-a30d-f8b026981cfb" time="1435757632590" ignored="false" />
     <file path="/fotorama.js" changelist="49a00667-eaa7-41b7-a30d-f8b026981cfb" time="1434151240975" ignored="false" />
@@ -78,10 +76,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bigjonan.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bigjonan.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bigjonan.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="0" selection-start="6976" selection-end="6976" vertical-scroll-proportion="0.0">
+            <state line="143" column="30" selection-start="5724" selection-end="5724" vertical-scroll-proportion="0.43820226">
               <folding />
             </state>
           </provider>
@@ -90,7 +88,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="341" column="31" selection-start="18383" selection-end="18383" vertical-scroll-proportion="-14.75">
+            <state line="287" column="69" selection-start="15961" selection-end="15961" vertical-scroll-proportion="-14.75">
               <folding>
                 <element signature="tag#nav#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0;tag#html#0" expanded="false" />
                 <element signature="tag#article#2;tag#section#1;tag#div#0;tag#body#0;tag#html#0;tag#html#0" expanded="false" />
@@ -99,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="665" selection-end="665" vertical-scroll-proportion="0.13289036">
+            <state line="23" column="24" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,12 +165,12 @@
         <option value="$PROJECT_DIR$/js/fotorama.js" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/tmp/woothemes-FlexSlider-83b3cae/jquery.flexslider.js" />
-        <option value="$PROJECT_DIR$/css/bigjonan.css" />
         <option value="$PROJECT_DIR$/css/flexslider.css" />
         <option value="$PROJECT_DIR$/js/jquery.flexslider.js" />
         <option value="$PROJECT_DIR$/js/bigjonan.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/bigjonan.css" />
       </list>
     </option>
   </component>
@@ -255,6 +253,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big-jonan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big-jonan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -598,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bigjonan.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="0" selection-start="6976" selection-end="6976" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.flexslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1142" column="23" selection-start="50469" selection-end="50469" vertical-scroll-proportion="0.0">
@@ -630,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="31" selection-start="18383" selection-end="18383" vertical-scroll-proportion="-14.75">
-          <folding>
-            <element signature="tag#nav#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0;tag#html#0" expanded="false" />
-            <element signature="tag#article#2;tag#section#1;tag#div#0;tag#body#0;tag#html#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bigjonan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="33" selection-start="192" selection-end="213" vertical-scroll-proportion="0.0">
@@ -649,7 +648,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="665" selection-end="665" vertical-scroll-proportion="0.13289036">
+        <state line="23" column="24" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="287" column="69" selection-start="15961" selection-end="15961" vertical-scroll-proportion="-14.75">
+          <folding>
+            <element signature="tag#nav#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0;tag#html#0" expanded="false" />
+            <element signature="tag#article#2;tag#section#1;tag#div#0;tag#body#0;tag#html#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bigjonan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="30" selection-start="5724" selection-end="5724" vertical-scroll-proportion="0.43820226">
           <folding />
         </state>
       </provider>

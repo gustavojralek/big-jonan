@@ -141,6 +141,7 @@ body {
     height: 10px;
     position: relative;
     left: -1px;
+    border: 1px solid #babcbc;
 }
 
 
