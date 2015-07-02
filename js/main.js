@@ -2,7 +2,7 @@
 var screenh = $(window).height();
 var movieh = $("#somos").height();
 var mainh = $("#top").height();
-var menuh = $(".navbar").height(); console.log("Menu:" + menuh);
+var menuh = $(".navbar").height();/* console.log("Menu:" + menuh);*/
 
 
 $(document).ready(function() {
@@ -39,7 +39,7 @@ $(document).ready(function() {
 function windowMainScroll(){
 
 
-    var st = $(window).scrollTop();  console.log("st:" + st);
+    var st = $(window).scrollTop();  /*console.log("st:" + st);*/
 
 
   // parallax general
