@@ -1209,3 +1209,9 @@
     }
   };
 })(jQuery);
+
+//$(this).data('flexslider').flexAnimate($slider.getTarget("next"), true); break;
+
+//$('.slider').flexslider('next')
+
+//$('.slider').flexAnimate($('.slider').flexslider('next'))
