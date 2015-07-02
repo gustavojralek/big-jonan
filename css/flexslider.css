@@ -118,42 +118,31 @@ html[xmlns] .flexslider .slides {
   display: block;
   width: 80px;
   height: 80px;
- /* margin: -20px 0 0;*/
   position: absolute;
-  top: 50%;
+  top: 35%;
   z-index: 10;
   overflow: hidden;
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
-/*  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;*/
-  color: #ffffff;
   border-radius: 50px;
-  background-color: #e3e4d8;
-  border: 2px solid #ffffff;
-  line-height: 2;
+  background-color: rgba(218, 217, 207, 0.8);
+  border: 2.5px solid #ffffff;
+  line-height: 1.25;
+  padding: 0 24px;
+  color: rgba(255, 255, 255, 0.8);
 
 }
 .flex-direction-nav a:before {
-  font-family: "flexslider-icon";
-  font-size: 40px;
+  font-size: 60px;
   display: inline-block;
-  content: '\f001';
-  color: rgba(0, 0, 0, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
 }
 .flex-direction-nav .flex-prev {
-  left: 0px;
+  left: 10%;
 }
 .flex-direction-nav .flex-next {
-  right: 0px;
+  right: 10%;
   text-align: right;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
